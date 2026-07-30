@@ -1,0 +1,13 @@
+Metric,JSAC Baseline,Proposed Q-FDRL,Proposed better?
+"Mean task latency (ms, lower is better)",409.0499421143944,373.15791977636655,True
+"Mean system throughput (Mbps, higher is better)",3.1722193143090585,3.476720164610409,True
+Mean A2C training loss (lower is better),7.658908625260616,6.507267656370434,True
+Mean reward per step (higher is better),-1.6361997684575775,-1.4926316791054663,True
+"V2V warning delivery rate (%, real distance+QKD-gated)",,95.87992344112018,N/A (proposed-only capability)
+"Grover edge-cluster match rate (%, vs. classical optimum)",,100.0,N/A (proposed-only capability)
+"Grover task-offloading action match rate (%, vs. classical optimum of 4 candidates)",,100.0,N/A (proposed-only capability)
+Mean latency of Grover-selected offloading action (ms),,24.27744784916786,N/A (proposed-only capability)
+"Grover UAV-selection match rate (%, vs. classical optimum)",,100.0,N/A (proposed-only capability)
+"Grover path-selection match rate (%, vs. classical optimum)",,100.0,N/A (proposed-only capability)
+"Grover resource-allocation match rate (%, vs. classical optimum)",,100.0,N/A (proposed-only capability)
+Final measured DP epsilon (this run's actual sigma),,19.999999999999993,N/A (proposed-only capability)
