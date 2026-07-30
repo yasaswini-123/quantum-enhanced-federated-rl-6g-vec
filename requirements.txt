@@ -1,1 +1,10 @@
-
+torch
+pennylane
+cirq
+numpy<2.2
+scipy<1.14
+pandas<2.3
+protobuf<5
+matplotlib
+seaborn
+ipython
