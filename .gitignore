@@ -1,1 +1,79 @@
+# ===== Byte-compiled / cache files =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+Notebook/.ipynb_checkpoints/
+
+# ===== Virtual environments =====
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+
+# ===== Distribution / packaging =====
+build/
+dist/
+*.egg
+
+# ===== Environment / secrets =====
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# NOTE: Datasets/ and Results/ are intentionally NOT ignored -- they hold
+# the real traces (ul_sinr_traces.csv, fh_sinr_traces.csv, etc.) and your
+# reproducibility figures/scorecards (figure_01...07, final_comparison_
+# scorecard.csv, etc.), matching how the paper's own repo keeps its
+# result plots visible. Keep these tracked.
+
+# ===== Accidental duplicate-download files =====
+# Catches browser re-download artifacts like "file(1).csv", "file (2).png"
+# -- a few of these already exist in Results/ (e.g.
+# vehicle_mobility_and_neighbors(1).csv, grover_uav_selection_diagnostics(2).csv,
+# model_training_convergence_logs(2).csv). Rename/remove those manually before
+# your next commit; this just stops NEW ones from sneaking in.
+*\ \(*\).csv
+*\ \(*\).png
+*(*).csv
+*(*).png
+
+# ===== Model checkpoints / weights (not currently produced, but common if added later) =====
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# ===== TensorFlow / PyTorch run artifacts =====
+runs/
+lightning_logs/
+.tensorboard/
+
+# ===== Quantum simulator cache (Cirq / PennyLane) =====
+.qiskit/
+*.qasm
+
+# ===== Colab-specific (if edited via colab.research.google.com) =====
+.config/
+sample_data/
+
+# ===== Logs (not currently produced, but common if added later) =====
+*.log
